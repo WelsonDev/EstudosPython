@@ -35,3 +35,6 @@ faca um programa que leia o salario
 de um funcionario e calcule o
 seu novo valor com 15% de aumento
 """
+
+numero = int(input('Digite um numero\n'))
+print('O antecessor do seu numero e: {} e o sucessor e:{}'.format(numero-1,numero+1))
