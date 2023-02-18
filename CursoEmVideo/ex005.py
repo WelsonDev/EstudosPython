@@ -2,8 +2,6 @@
 Faca um programa que leia um numero e
 mostre seu sucessor e seu antecessor
 
-crie um algoritmo que leia um e mostre
-seu dobro e triplo da raiz quadrada
 
 desenvolva um programa que duas notas do
 aluno e calcule sua media
