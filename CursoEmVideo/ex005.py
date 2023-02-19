@@ -2,9 +2,6 @@
 Faca um programa que leia um numero e
 mostre seu sucessor e seu antecessor
 
-desenvolva um programa que duas notas do
-aluno e calcule sua media
-
 escreva um programa que leia um valor
 em metros e o exiba convertido em
 centimetros e milimetros
