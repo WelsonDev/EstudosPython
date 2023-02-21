@@ -2,10 +2,6 @@
 Faca um programa que leia um numero e
 mostre seu sucessor e seu antecessor
 
-escreva um programa que leia um valor
-em metros e o exiba convertido em
-centimetros e milimetros
-
 faca um programa que leia um numero qualque
 e mostre sua tabuada
 
