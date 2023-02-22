@@ -5,4 +5,6 @@ seu dobro e triplo da raiz quadrada
 """
 
 numero = int(input('Digite um numero:\n'))
-print('numero e: {}'.format(numero))
+dobraiz = numero / 2
+print('Seu numero e: {} e o dobro da raiz e: {}'.format(numero))
+
