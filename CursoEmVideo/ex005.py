@@ -2,9 +2,6 @@
 Faca um programa que leia um numero e
 mostre seu sucessor e seu antecessor
 
-faca um programa que leia um numero qualque
-e mostre sua tabuada
-
 crie um programa que leia quanto dinheiro
 uma pessoa tem na carteira e mostre quanto
 ela pode comprar em dolares
