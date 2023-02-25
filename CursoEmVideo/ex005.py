@@ -2,11 +2,6 @@
 Faca um programa que leia um numero e
 mostre seu sucessor e seu antecessor
 
-crie um programa que leia quanto dinheiro
-uma pessoa tem na carteira e mostre quanto
-ela pode comprar em dolares
-dolar 3.27
-
 faca um programa que leia a altura e
 largura de uma parede em metros
 e calcule sua area e a quantidade de
