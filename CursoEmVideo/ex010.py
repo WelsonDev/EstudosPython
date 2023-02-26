@@ -6,7 +6,7 @@ ela pode comprar em dolares
 dolar 3.27
 """
 
-carteira = float(input('Digite quanto voce tem na carteira: '))
+carteira = float(input('Digite quanto voce tem na carteira:R$ '))
 valodol = carteira / 3.27
 
-print('Valor em dolares igual a: {}'.format(valodol))
+print('Valor em dolares igual a: {:.2f}'.format(valodol))
