@@ -9,8 +9,8 @@ import math
 cata = float(input('Digite o valor do cateto adjacente'))
 cato = float(input('Digite o valor do cateto oposto'))
 
-hipo = (cata ** 2) + (cato ** 2) ** (1/2)
+hipo = (cata ** 2 + cato ** 2) ** (1/2)
 hipo2 = math.hypot(cato, cata)
 
-print('{}'.format(hipo))
-print('{}'.format(hipo2))
+print('{:.2f}'.format(hipo))
+print('{:.2f}'.format(hipo2))

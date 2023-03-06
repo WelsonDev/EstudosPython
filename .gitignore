@@ -133,6 +133,7 @@ dmypy.json
 Avon_Bot_Whats.csv
 <<<<<<< HEAD
 PyWhatKit_DB.txt
+*.mp3
 =======
 PyWhatKit_DB.txt
 >>>>>>> a86fd139422d877af0876a29391d7cc4418dbcc7
