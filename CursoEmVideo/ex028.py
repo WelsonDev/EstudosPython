@@ -5,3 +5,10 @@ usuário tentar descobrir qual foi o número escolhido pelo computador. O progra
 venceu ou perdeu.
 
 """
+from random import random
+
+numero = input('Digite um numero de 0 a 5')
+
+sorteio = random[0, 5]
+
+print('Valor e {}'.format(sorteio))
