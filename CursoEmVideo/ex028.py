@@ -5,10 +5,13 @@ usuário tentar descobrir qual foi o número escolhido pelo computador. O progra
 venceu ou perdeu.
 
 """
-from random import random
+from random import randrange
 
-numero = input('Digite um numero de 0 a 5')
+numero = int(input('Digite um numero de 0 a 5\n'))
 
-sorteio = random[0, 5]
+sorteio = randrange(5)
 
-print('Valor e {}'.format(sorteio))
+if numero == sorteio:
+    print('Valor digitado foi: {}, e o sorteado foi {}. Voce GANHOU!'.format(numero, sorteio))
+else:
+    print('Valor digitado foi: {}, O Sorteado foi: {}. Voce Perdeu!'.format(numero, sorteio))
