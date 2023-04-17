@@ -3,6 +3,7 @@ Exercício Python 035: Desenvolva um programa que leia o comprimento de três re
 e diga ao usuário se elas podem ou não formar um triângulo.
 
 """
+# print("=\033[0:33:44m" * 20)
 print("=" * 20)
 
 n1 = float(input("Digite o primeiro segmento: "))
