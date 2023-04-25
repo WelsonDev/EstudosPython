@@ -9,10 +9,10 @@ escolha = int(input("Escolha a base que voce quer converter:\n 1: Binario\n 2: o
 valor = int(input("Digite o valor que voce quer converter:\n"))
 
 if escolha == 1:
-    print("O valor digitado foi: {}, A conversao para binario e: {}".format(escolha, bin(valor)))
+    print("O valor digitado foi: {}, A conversao para binario e: {}".format(escolha, bin(valor)[2:]))
 elif escolha == 2:
-    print("O valor digitado foi: {}, A conversao para octal e: {}".format(escolha, oct(valor)))
+    print("O valor digitado foi: {}, A conversao para octal e: {}".format(escolha, oct(valor)[2:]))
 elif escolha == 3:
-    print("O valor digitado foi: {}, A conversao para hexadecimal e: {}".format(escolha, hex(valor)))
+    print("O valor digitado foi: {}, A conversao para hexadecimal e: {}".format(escolha, hex(valor)[2:]))
 else:
     print("Opcao invalida!")
