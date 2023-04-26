@@ -4,7 +4,7 @@ de conversão: 1 para binário, 2 para octal e 3 para hexadecimal.
 """
 print("\033[30m=\033[m"*30)
 
-escolha = int(input("Escolha a base que voce quer converter:\n 1: Binario\n 2: octal\n 3: hexadecinal\n"))
+escolha = int(input("Escolha a base que voce quer converter:\n 1: Binario\n 2: octal\n 3: hexadecimal\n"))
 
 valor = int(input("Digite o valor que voce quer converter:\n"))
 
