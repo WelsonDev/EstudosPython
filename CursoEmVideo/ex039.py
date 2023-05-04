@@ -8,6 +8,7 @@ import time as tm
 anonasc = int(input("Digite o ano que voce nasceu:\n"))
 
 anohj = int(tm.strftime("%Y"))
+anoalist = anonasc + 16
 
 if anohj == anonasc:
     print("Ano e igual")
