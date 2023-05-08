@@ -10,10 +10,15 @@ anonasc = int(input("Digite o ano que voce nasceu:\n"))
 anohj = int(tm.strftime("%Y"))
 anoalist = anonasc + 16
 
-if anohj == anonasc:
+if anohj <= anoalist:
+    if (anoalist - anohj) < 0:
+        print("Seu periodo de alistamento ja passo, Atraso de {} Ano".format(anoalist - anohj)*-1)
+    else:
+        print("Voce ainda tem {} ano(s) para fazer seu alistamento".format(anoalist - anohj))
+
     print("Ano e igual")
 else:
-    print("Ano na e igual")
+    print("Ano nao e igual")
 
 print("{}".format(anohj))
 
