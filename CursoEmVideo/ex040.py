@@ -14,7 +14,8 @@ media = float(notaa + notab) / 2
 
 if media >= 7:
     print("Sua media foi {}. Voce esta APROVADO!".format(media))
-elif media >= 5 and media <= 6.9:
+elif 5 <= media <= 6.9:
+# elif media >= 5 and media <= 6.9:
     print("Sua media foi {}. Voce esta em RECUPERACAO!".format(media))
 else:
     print("Sua media foi {}. Voce esta REPROVADO!".format(media))
