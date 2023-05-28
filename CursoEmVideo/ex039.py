@@ -5,7 +5,7 @@ do tempo do alistamento. Seu programa também deverá mostrar o tempo que falta 
 """
 import datetime as dt
 import time as tm
-anonasc = int(input("Digite o ano que voce nasceu:\n"))
+anonasc = int(input("\033[30mDigite o ano que voce nasceu:\033[m\n"))
 
 anohj = int(tm.strftime("%Y"))
 anoalist = anonasc + 16
