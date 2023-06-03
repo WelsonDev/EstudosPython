@@ -13,6 +13,12 @@ n2 = float(input("Digite o segundo segmento: "))
 n3 = float(input("Digite o terciro segmento: "))
 
 if n1 < n2 + n3 and n2 < n1 + n3 and n3 < n1 + n2:
-    print("Os Segmentos acima podem formar um triangulo: ")
+    print("Os Segmentos acima podem formar um triangulo ", end="")
+    if n1 == n2 == n3:
+        print("Equilatero")
+    elif n1 != n2 != n3 != n1:
+        print("Escaleno")
+    else:
+        print("Isosceles")
 else:
     print("Os segmetos acima nao podem formar um triangulo")
