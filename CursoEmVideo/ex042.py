@@ -6,11 +6,12 @@
 """
 
 # print("=\033[0:33:44m" * 20)
-print("=" * 20)
+print("=" * 30)
 
 n1 = float(input("Digite o primeiro segmento: "))
 n2 = float(input("Digite o segundo segmento: "))
 n3 = float(input("Digite o terciro segmento: "))
+print("=" * 30)
 
 if n1 < n2 + n3 and n2 < n1 + n3 and n3 < n1 + n2:
     print("Os Segmentos acima podem formar um triangulo ", end="")
