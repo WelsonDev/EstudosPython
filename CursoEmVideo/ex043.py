@@ -9,10 +9,10 @@
 
 """
 
-altura = int(input("Digite sua altura:\n"))
-peso = int(input("Digite seu peso:\n"))
+altura = float(input("Digite sua altura:\n"))
+peso = float(input("Digite seu peso:\n"))
 
-imc = (peso / altura) ** 2
+imc = peso / (altura ** 2)
 
 if imc <= 18.5:
     print("seu IMC e :{}. Voce esta abaixo do Peso".format(imc))
