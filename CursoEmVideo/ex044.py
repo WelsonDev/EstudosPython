@@ -18,6 +18,6 @@ formapgto = int(input("1 - A vista em dinheiro:\n"
                       ))
 print(formapgto)
 if formapgto == 1:
-    valorproduto = (valorproduto * 10 /100) - valorproduto
+    valorproduto = valorproduto - (valorproduto * 10 /100)
 
 print(valorproduto)
