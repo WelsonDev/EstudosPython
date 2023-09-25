@@ -21,6 +21,8 @@ if formapgto == 1:
     valorproduto = valorproduto - (valorproduto * 10 /100)
 elif formapgto == 2:
     valorproduto = valorproduto - (valorproduto * 5 /100)
+elif formapgto == 3:
+    valorproduto = valorproduto - (valorproduto * 20 / 100)
 
 
 print(valorproduto)
