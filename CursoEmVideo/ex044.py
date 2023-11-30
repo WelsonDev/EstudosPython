@@ -22,6 +22,7 @@ if formapgto == 1:
     formapgto = "A Vista"
 elif formapgto == 2:
     valorproduto = valorproduto - (valorproduto * 5 /100)
+    formapgto = "A vista no credito"
 elif formapgto == 3:
     valorproduto = valorproduto - (valorproduto * 20 / 100)
 
