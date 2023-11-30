@@ -19,10 +19,11 @@ formapgto = int(input("1 - A vista em dinheiro:\n"
 print(formapgto)
 if formapgto == 1:
     valorproduto = valorproduto - (valorproduto * 10 /100)
+    formapgto = "A Vista"
 elif formapgto == 2:
     valorproduto = valorproduto - (valorproduto * 5 /100)
 elif formapgto == 3:
     valorproduto = valorproduto - (valorproduto * 20 / 100)
 
+print("A forma de pagamento selecionada foi,{} e o valor do produto ficou em {}".format(formapgto,valorproduto))
 
-print(valorproduto)
