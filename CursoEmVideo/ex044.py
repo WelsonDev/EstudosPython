@@ -25,6 +25,7 @@ elif formapgto == 2:
     formapgto = "A vista no credito"
 elif formapgto == 3:
     valorproduto = valorproduto - (valorproduto * 20 / 100)
+    formapgto = "Em 2x no credito"
 
 print("A forma de pagamento selecionada foi,{} e o valor do produto ficou em {}".format(formapgto,valorproduto))
 
