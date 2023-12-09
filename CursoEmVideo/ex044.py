@@ -13,7 +13,7 @@ valorproduto = float(input("Digite o valor do produto:\n"))
 formapgto = int(input("1 - A vista em dinheiro:\n" 
                       "2 - A vista no cartao de credito:\n"
                       "3 - ate 2x no cartao:\n"
-                      "4 - Maior que 3x no cartao:\n"
+                      "4 - Em 3x ou mais no cartao:\n"
 
                       ))
 print(formapgto)
@@ -26,6 +26,11 @@ elif formapgto == 2:
 elif formapgto == 3:
     valorproduto = valorproduto - (valorproduto * 20 / 100)
     formapgto = "Em 2x no credito"
+elif formapgto == 4:
+    valorproduto = valorproduto
+    formapgto = "Em 2x no credito"
+else:
+    print("Forma de pagamento nao disponivel!")
 
-print("A forma de pagamento selecionada foi,{} e o valor do produto ficou em {}".format(formapgto,valorproduto))
+print("A forma de pagamento selecionada foi, {} e o valor do produto ficou em {}".format(formapgto,valorproduto))
 
