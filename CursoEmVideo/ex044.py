@@ -32,5 +32,4 @@ elif formapgto == 4:
 else:
     print("Forma de pagamento nao disponivel!")
 
-print("A forma de pagamento selecionada foi, {} e o valor do produto ficou em {}".format(formapgto,valorproduto))
-
+print("A forma de pagamento selecionada foi {}, e o valor do produto ficou em {}".format(formapgto,valorproduto))
